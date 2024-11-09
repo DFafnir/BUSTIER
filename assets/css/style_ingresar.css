@@ -3,6 +3,7 @@
 }
 
 body {
+    background-image: url(../img/Época\ Victoriana.png);
         background-color: rgb(255, 255, 255);
         background-size: cover;
         background-position: center;
@@ -56,7 +57,7 @@ header{
 }
 
 .navbar ul li a {
-    color: #000000;
+    color: #fff5e9;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
@@ -98,10 +99,71 @@ header{
 #titulo1 {
     padding-top: 100px; 
     text-align: center;
-    color: #693405;
+    color: #fff6ef;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
+
+.formulario {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+   
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px #000000cb;
+    background-color: #20130793;
+}
+
+.formulario h2 {
+    text-align: center;
+}
+
+.formulario label {
+    color: #fff6ef;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 19px;
+    border-radius: 8px;
+    border: 1px;
+    box-sizing: border-box;
+    color: #f4aa82;
+    background-color: #ffefd8c7;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.formulario button  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    background-color: #cc8c6c;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario button:hover {
+    background-color: #9e6a52;
+}
+
 
 footer{ 
     padding-top: 10px;
