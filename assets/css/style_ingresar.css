@@ -265,7 +265,7 @@ input {
 }
 
 button:hover{
-    background: linear-gradient(to right, #9b520e, #daa85e);
+    background: linear-gradient(to right, #936336, #d4b78a);
 }
 .container.right-panel-active .sign-up-container {
 	transform: translateX(100%);
@@ -304,8 +304,8 @@ button:hover{
 
 .overlay {
 	background: #783e0f;
-	background: -webkit-linear-gradient(to right, #9b520e, #daa85e);
-	background: linear-gradient(to right, #9b520e, #daa85e);
+	background: -webkit-linear-gradient(to right, #936336, #d4b78a);
+	background: linear-gradient(to right, #936336, #d4b78a);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
