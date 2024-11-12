@@ -141,18 +141,18 @@ h3{
     gap: 10px;
     width: 90%;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 25%;
 }
 
 .producto{
     background-color: #b1949d8c;
     min-height: 215px;
-    padding: 5px;
+    padding: 45px;
     border-radius: 15px;
     width: 200px;
     float:inline-start;
-    margin: 10px;
+    margin: 15px;
     transition: box-shadow .5s ease ;
 }
 
