@@ -126,15 +126,14 @@ div{
     margin: 8;
 }
 h3{
-    font-size: small;
+    font-size: 13PX;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #B1949D;
     width: 100%;
     padding: 15;
     bottom: 0;
     margin-top: 8;
-    color: #fdf9f9;
-    text-align: center;
+    color: #ffffff;
+    text-align: justify;
 }
 
 .container{
@@ -142,18 +141,18 @@ h3{
     gap: 10px;
     width: 90%;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 25%;
 }
 
 .producto{
-    background-color: #B1949D;
+    background-color: #b194a68c;
     min-height: 215px;
-    padding: 5px;
+    padding: 45px;
     border-radius: 15px;
     width: 200px;
     float:inline-start;
-    margin: 10px;
+    margin: 15px;
     transition: box-shadow .5s ease ;
 }
 
@@ -185,13 +184,13 @@ h3{
     height: auto;
     border-radius: 5px;
     padding: 5px;
-    background-color: #c9abb5;
+    #b1949d8c
     box-shadow: 2px 2px 5px#00000038;
     transition: background-color .5s ease ;
 }
 
 #carrito2:hover{
-    background-color: #ebccd6;
+    background-color:#b1949d8c;
 }
 
 
