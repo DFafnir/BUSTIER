@@ -172,38 +172,33 @@ p {
 .item2{grid-area: header;}
 .tem3{grid-area: main;}
 .item4{grid-area: right;}
+.item5{grid-area: footer;}
 
 .container-ofertas{
   display: grid;
-  grid-template-areas: 
-      'menu header header'
-      'menu main right'
-      'menu main right' ;
+  grid-template-areas:
+    'menu header header header'
+    'menu main footer right'
+    'menu main footer right';
+    max-width: 90%;
     gap: 5px;
-}
-
-.item2{
-    height: 55vh;
-    width: 66vw;
     
 }
 
 .item1{
     width: 25vw;
+    height: 110.5vh;
 }
 
-.item3{
-    cursor: pointer;
-    height: 41.5vh;
-    width: 30vw;
-}
-.item4{
-    cursor: pointer;
-    height: 41.5vh;
-    width: 30vw;
-   
+.item2{
+    width: 65vw;
+    height: 55vh;
 }
 
+.item3, .item4, .item5{
+    width: 21vw;
+    height: 55vh;
+}
 footer{ 
     padding-top: 10px;
     text-align: center;
