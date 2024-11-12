@@ -99,15 +99,7 @@ header{
     width: 100%;
     size: cover;
 }
-footer{ 
-    padding-top: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    position: flex;
-    bottom: 0;
-    width: 100%;
-    background-color: #d6cbcfb4;
-}
+
 div{
     margin-bottom: 20px;
 }
@@ -176,6 +168,51 @@ p {
     cursor: pointer;
 }
 
+.item1{grid-area: menu;}
+.item2{grid-area: header;}
+.tem3{grid-area: main;}
+.item4{grid-area: right;}
+
+.container-ofertas{
+  display: grid;
+  grid-template-areas: 
+      'menu header header'
+      'menu main right'
+      'menu main right' ;
+    gap: 5px;
+}
+
+.item2{
+    height: 55vh;
+    width: 66vw;
+    
+}
+
+.item1{
+    width: 25vw;
+}
+
+.item3{
+    cursor: pointer;
+    height: 41.5vh;
+    width: 30vw;
+}
+.item4{
+    cursor: pointer;
+    height: 41.5vh;
+    width: 30vw;
+   
+}
+
+footer{ 
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #d6cbcfb4;
+}
 footer>div>a{
     text-decoration: none;
     margin-left: 20px;
