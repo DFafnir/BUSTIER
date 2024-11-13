@@ -146,18 +146,18 @@ footer>div>a{
 @media (max-width: 768px) { 
     nav ul { 
     display: none; 
-    flex-direction:column; 
+    flex-direction:initial; 
     width: 100%; 
     } 
     nav ul li a { 
     padding: 1em; 
-    text-align: center; 
+    text-align:right; 
     } 
     #nav-toggle { 
     display: block; 
     } 
     .nav-open ul { 
-    display: flex; 
+    display: fixed; 
     } 
     } 
 
