@@ -38,6 +38,7 @@ header{
     align-items: center;
     margin-right: 4%;
     font-size: small;
+    background-color:  #ffffff45;
 }
 
 .navbar {
@@ -242,8 +243,7 @@ footer>div>a{
 
 /* Banner Animation */
 #BANNER {
-    width: 100%;
-    height: auto;
+    
     animation: slideDown 1.5s ease-out;
 }
 
@@ -326,3 +326,5 @@ footer h3 {
     display: flex; 
     } 
     } 
+
+   
