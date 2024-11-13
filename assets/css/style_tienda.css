@@ -207,6 +207,7 @@ footer>div>a{
     100% {box-shadow: 10px 10px 30px #291e0d6b;}
 } */
  
+ 
 @media (max-width: 768px) { 
     nav ul { 
     display: none; 

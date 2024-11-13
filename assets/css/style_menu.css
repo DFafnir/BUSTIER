@@ -288,7 +288,7 @@ footer h3 {
 
 /* Hover Effect on Links */
 .navbar ul li a:hover, .contacta a:hover {
-    color: #fff9f7;
+    color: #7e003b;
     transition: color 0.3s ease;
 }
  
