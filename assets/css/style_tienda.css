@@ -129,6 +129,10 @@ footer{
     width: 100%;
     background-color: #d6cbcfb4;
 }
+#derechos{
+    background-color: #B1949D;
+    text-align: center;
+}
 div{
     margin-bottom: 20px;
 }
