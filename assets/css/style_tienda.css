@@ -2,7 +2,9 @@
 *{
     margin: 0;
 }
-
+a{
+    text-decoration: none;
+}
 body {
         background-color: rgb(255, 255, 255);
         background-size: cover;
@@ -38,6 +40,7 @@ header{
     align-items: center;
     margin-right: 4%;
     font-size: small;
+    background-color: #ffffff63;
 }
 
 .navbar {
@@ -123,15 +126,73 @@ div{
     margin: 8;
 }
 h3{
-    font-size: small;
+    font-size: 13PX;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #B1949D;
     width: 100%;
     padding: 15;
     bottom: 0;
     margin-top: 8;
-    color: #fdf9f9;
+    color: #ffffff;
+    text-align: justify;
 }
+
+.container{
+    
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 25%;
+}
+
+.producto{
+    background-color: #b194a68c;
+    min-height: 215px;
+    padding: 45px;
+    border-radius: 15px;
+    width: 200px;
+    float:inline-start;
+    margin: 15px;
+    transition: box-shadow .5s ease ;
+}
+
+.producto img{
+    height: 200px;
+    max-width: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+
+
+.producto:hover{
+    box-shadow: 5px 5px 20px 5px #00000056;
+    
+    border: 0 solid ;
+}
+.pie_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+#carrito2{
+    object-fit: cover;
+    width: 2em;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    #b1949d8c
+    box-shadow: 2px 2px 5px#00000038;
+    transition: background-color .5s ease ;
+}
+
+#carrito2:hover{
+    background-color:#b1949d8c;
+}
+
 
 footer>div>a{
     text-decoration: none;
@@ -141,6 +202,10 @@ footer>div>a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
+/* @keyframes mymove{
+    100% {box-shadow: 10px 10px 30px #291e0d6b;}
+} */
  
 @media (max-width: 768px) { 
     nav ul { 
