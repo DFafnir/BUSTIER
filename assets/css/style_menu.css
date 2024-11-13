@@ -65,7 +65,6 @@ header{
 
 .navbar ul li:hover > a {
     background-color: #2d2b2e69;
-    transition: background-color .5s ease
 }
 
 /* Submenú */
@@ -98,7 +97,6 @@ header{
 
 #BANNER{
     width: 100%;
-    height: 100vh;
     size: cover;
 }
 
@@ -109,17 +107,6 @@ div{
     width: 100px;
     margin: 8;
 }
-
-#contBANNER:after{
-    content: "";
-    width: 100%;
-    height: 5%;
-    position: absolute;
-    left: 0;
-    bottom: -16.5;
-    background-image: linear-gradient(to top,#ffffff, transparent);
-}
-
 h3{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
@@ -190,10 +177,10 @@ p {
 .container-ofertas{
   display: grid;
   grid-template-areas:
-    'menu header header footer'
-    'menu main right footer'
-    'menu main right footer';
-    max-width: 98%;
+    'menu header header header'
+    'menu main footer right'
+    'menu main footer right';
+    max-width: 90%;
     gap: 5px;
     
 }
@@ -204,18 +191,13 @@ p {
 }
 
 .item2{
-    width: 46vw;
+    width: 65vw;
     height: 55vh;
 }
 
-.item3, .item4{
-    width: 22.69vw;
+.item3, .item4, .item5{
+    width: 21vw;
     height: 55vh;
-}
-
-.item5{
-    height: 110.5vh;
-    width: 25vw;
 }
 footer{ 
     padding-top: 10px;
