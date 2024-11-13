@@ -97,6 +97,17 @@ header{
     margin: 1rem 0 1rem 4rem;
     
 }
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Hover Effect on Links */
+.navbar ul li a:hover, .contacta a:hover {
+    color: #ffe6ce;
+    transition: color 0.3s ease;
+}
+ 
 
 
 #titulo1 {
@@ -271,6 +282,7 @@ h2::after {
     background-color: #5b3d31;
     margin: 8px auto 0;
 }
+
 
 /* Estilo de animación de entrada */
 @keyframes fadeInUp {
