@@ -358,6 +358,11 @@ button:hover{
 	margin: 20px 0;
 }
 
+.social-container img{
+    height: 40px;
+    border-radius: 50%;
+}
+
 .social-container a {
 	border: 1px solid #DDDDDD;
 	border-radius: 50%;
@@ -424,3 +429,5 @@ footer>div>a{
     display: flex; 
     } 
     } 
+
+    
