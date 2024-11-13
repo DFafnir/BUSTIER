@@ -1,4 +1,4 @@
-/* Responsive Design */ 
+
 *{
     margin: 0;
 }
@@ -233,6 +233,80 @@ footer>div>a{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* Banner Animation */
+#BANNER {
+    width: 100%;
+    height: auto;
+    animation: slideDown 1.5s ease-out;
+}
+
+@keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Product Animation */
+.product-container .product {
+    animation: fadeInUp 1s ease-in-out;
+    transition: transform 0.3s;
+}
+
+.product-container .product:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Offers Animation */
+.container-ofertas img {
+    animation: zoomIn 1s ease;
+}
+
+@keyframes zoomIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.container-ofertas img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Footer Text Animation */
+footer h3 {
+    animation: textSlideUp 1.5s ease-in;
+    color: #333;
+}
+
+@keyframes textSlideUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Navbar Animation */
+.navbar ul li {
+    animation: fadeInLeft 1s ease;
+}
+
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Hover Effect on Links */
+.navbar ul li a:hover, .contacta a:hover {
+    color: #fff9f7;
+    transition: color 0.3s ease;
 }
  
 @media (max-width: 768px) { 
