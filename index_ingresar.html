@@ -40,30 +40,30 @@
             <form action="#">
                 <h1>Crea tu cuenta</h1>
                 <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" class="social"><img src="./assets/img/facebook.png" alt=""></a>
+                    <a href="https://es.wikipedia.org/wiki/Google%2B" class="social"><img src="./assets/img/logotipo-de-google-plus.png" alt=""></a>
+                    <a href="https://co.linkedin.com/" class="social"><img src="./assets/img/linkedin.png" alt=""></a>
                 </div>
                 <span>o usa tu email para registrarte</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Crear cuenta</button>
+                <input type="text" placeholder="Name" id="crearName"/>
+                <input type="email" placeholder="Email" id="crearEmail"/>
+                <input type="password" placeholder="Password" id="crearPassword"/>
+                <button type="submit" value="Crear">Crear cuenta</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Iniciar sesión</h1>
                 <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" class="social"><img src="./assets/img/facebook.png" alt=""></a>
+                    <a href="https://es.wikipedia.org/wiki/Google%2B" class="social"><img src="./assets/img/logotipo-de-google-plus.png" alt=""></a>
+                    <a href="https://co.linkedin.com/" class="social"><img src="./assets/img/linkedin.png" alt=""></a>
                 </div>
                 <span>o usa tu email para registrarte</span>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <input type="email" placeholder="Email" id="email" />
+                <input type="password" placeholder="Password" id="password"/>
                 <a href="#">Olvidaste tu contraseña?</a>
-                <button>Iniciar sesión</button>
+                <button type="submit" value="Ingresar" >Iniciar sesión</button>
             </form>
         </div>
         <div class="overlay-container">
@@ -114,5 +114,7 @@
             container.classList.remove('right-panel-active');
         });
     </script>
+
+    <script src="./assets/js/java_ingresar.js" ></script>
 </body>
 </html>
