@@ -86,6 +86,7 @@ header{
 
 
 .navbar ul li:hover > ul {
+    
     display: block;
 }
 .contacta{
@@ -98,7 +99,17 @@ header{
     
 }
 
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
 
+/* Hover Effect on Links */
+.navbar ul li a:hover, .contacta a:hover {
+    color: #ffcee5;
+    transition: color 0.3s ease;
+}
+ 
 #titulo1 {
     padding-top: 100px; 
     text-align: center;
@@ -167,7 +178,7 @@ h3{
 
 
 .producto:hover{
-    box-shadow: 5px 5px 20px 5px #00000056;
+    box-shadow: 5px 5px 20px 5px #27001a42;
     
     border: 0 solid ;
 }
@@ -202,11 +213,43 @@ footer>div>a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+@keyframes fadeInMove {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-/* @keyframes mymove{
-    100% {box-shadow: 10px 10px 30px #291e0d6b;}
-} */
- 
+#BUSTIER {
+    width: 15em;
+    margin-left: 3%;
+    display: flex;
+    animation: fadeInMove 1s ease-in-out;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px); /* Starts below */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Moves to original position */
+        opacity: 1;
+    }
+}
+
+/* Apply animation to the containers */
+.container {
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 25%;
+    animation: slideUp 0.8s ease-out; /* Apply animation with 0.8s duration */
+}
  
 @media (max-width: 768px) { 
     nav ul { 
