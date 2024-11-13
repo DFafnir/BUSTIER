@@ -9,7 +9,8 @@ body {
         background-repeat: repeat;  
         margin: 0;
         height: 100vh;
-
+        background-image: url(./../img/vv.jpg);
+        
 }
 
 #BUSTIER{
@@ -27,7 +28,7 @@ body {
 }
 header{
     font-family: Arial, Helvetica, sans-serif;
-    width: 97%;
+    width: 100%;
     position: fixed;
     z-index: 100;
     color: #967f5c;
@@ -37,11 +38,14 @@ header{
     align-items: center;
     margin-right: 4%;
     font-size: small;
+    background-color: #fff2eaaf;
+    box-shadow: 5px 5px 8px rgba(8, 5, 0, 0.438);
 }
 
 .navbar {
    display: flex;
     padding: 10px;
+    
 }
 
 .navbar ul {
@@ -103,11 +107,21 @@ header{
     font-size: larger;
 }
 
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(84, 55, 39, 0.1);
+}
+
+
 footer{ 
     padding-top: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: flex;
     bottom: 0;
     width: 100%;
     background-color: #d6cbcfb4;
@@ -130,6 +144,190 @@ h3{
     color: #fdf9f9;
 }
 
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #d1c2b2;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-clip: padding-box;
+}
+
+/* Bordes decorativos en los extremos */
+.about-container::before,
+.about-container::after {
+    content: "";
+    position: absolute;
+    width: 180%;
+    height: 50px;
+    background-color: #d4b59c;
+    top: 0;
+    left: -40%;
+    transform: rotate(-3deg);
+    opacity: 0.08;
+}
+
+.about-container::after {
+    top: auto;
+    bottom: 0;
+    transform: rotate(3deg);
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #c2712a,#af7722,#d69027, #ffae18, #ffd255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 2.8em;
+    color: #ac7500;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3); */
+    border-bottom: 2px solid #5b3d31;
+    padding-bottom: 10px;
+    display: inline-block;
+   
+    
+}
+
+
+/* Estilos para los subtítulos */
+h2 {
+    font-size: 1.8em;
+    color: #5b3d31;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #5b3d31;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+h2::after {
+    content: '✦';
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    font-size: 1.2em;
+    color: #c4a697;
+}
+
+/* Estilo del texto de introducción */
+.intro {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #3b2d2a;
+    background-color: #f7f3f0;
+    padding: 15px 20px;
+    border-left: 5px solid #5b3d31;
+    border-right: 5px solid #5b3d31;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15px rgba(91, 61, 49, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.intro:hover {
+    transform: scale(1.02);
+}
+
+/* Párrafos */
+p {
+    font-size: 1.15em;
+    margin-bottom: 15px;
+    color: #4a3b3a;
+    line-height: 1.8;
+    transition: color 0.3s ease;
+}
+
+.legal a {
+    color: #5b3d31;
+    text-decoration: none;
+    border-bottom: 1px dashed #5b3d31;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+a:hover {
+    color: #3a2a21;
+    border-bottom: 1px solid #3a2a21;
+}
+
+
+h2::before,
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #5b3d31;
+    margin: 8px auto 0;
+}
+
+/* Estilo de animación de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-container, h1, h2, p, .intro {
+    animation: fadeInUp 1s ease both;
+}
+
+/* Estilo de sombra y decoraciones adicionales */
+.about-container {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 50%, rgba(240, 236, 230, 0.9) 100%);
+}
+
+h1 {
+    text-shadow: 1px 1px 4px rgba(91, 61, 49, 0.3);
+}
+
+
+/* Estilo de animación de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-container, h1, h2, p, .intro {
+    animation: fadeInUp 1s ease both;
+}
+
+/* Estilo de sombra y decoraciones adicionales */
+.about-container {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 50%, rgba(240, 236, 230, 0.9) 100%);
+}
+
+h1 {
+    text-shadow: 1px 1px 4px rgba(91, 61, 49, 0.3);
+}
+
+.intro {
+    box-shadow: 0 2px 5px rgba(91, 61, 49, 0.15);
+}
 footer>div>a{
     text-decoration: none;
     margin-left: 20px;
