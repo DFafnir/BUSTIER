@@ -19,7 +19,12 @@ body {
     display: flex;
 }
 
-
+#profile{
+    width: 2em;
+    height: 2em;
+    margin-top: 5;
+    margin-right: 1rem;
+}
 #carrito{
     width: 2em;
     height: 2em;
@@ -253,6 +258,31 @@ li{
     display: flex;
     animation: fadeInMove 1s ease-in-out;
 }
+footer h3 {
+    animation: textSlideUp 1.5s ease-in;
+    color: #333;
+}
+
+@keyframes textSlideUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Navbar Animation */
+.navbar ul li {
+    animation: fadeInLeft 1s ease;
+}
+
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Hover Effect on Links */
+.navbar ul li a:hover, .contacta a:hover {
+    color: #ffcee5;
+    transition: color 0.3s ease;
+}
 /* Animación de desvanecimiento */
 @keyframes fadeIn {
     0% {
@@ -279,6 +309,9 @@ li {
 }
 
 
+.navbar ul li {
+    animation: fadeInLeft 1s ease;
+}
 
 
 /* Responsiveness for smaller screens */
