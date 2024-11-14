@@ -72,7 +72,7 @@ footer h3{
     color: #967f5c;
     padding: 10px;
     display: fixed; 
-    justify-content: space-between;
+    /* justify-content: space-around; */
     align-items: center;
     margin-right: 4%;
     font-size: small;
@@ -91,6 +91,7 @@ footer h3{
     display: flex;
      padding: 10px;
      width: 100%;
+     justify-content: space-around;
      
  }
  
