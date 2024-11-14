@@ -316,22 +316,3 @@ footer h3 {
     transition: color 0.3s ease;
 }
  
-@media (max-width: 768px) { 
-    nav ul { 
-    display: none; 
-    flex-direction:column; 
-    width: 100%; 
-    } 
-    nav ul li a { 
-    padding: 1em; 
-    text-align: center; 
-    } 
-    #nav-toggle { 
-    display: block; 
-    } 
-    .nav-open ul { 
-    display: flex; 
-    } 
-    } 
-
-   

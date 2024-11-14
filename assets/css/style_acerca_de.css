@@ -358,20 +358,43 @@ footer>div>a{
 }
 
 
-@media (max-width: 768px) { 
+/* Responsive Design */ 
+
+@media (max-width: 768px) {
     nav ul { 
-    display: none; 
-    flex-direction:column; 
-    width: 100%; 
-    } 
-    nav ul li a { 
-    padding: 1em; 
-    text-align: center; 
-    } 
-    #nav-toggle { 
-    display: block; 
-    } 
-    .nav-open ul { 
-    display: flex; 
-    } 
-    } 
+        display: none; 
+        flex-direction:column; 
+        width: 40%; 
+        } 
+        nav ul li a { 
+            padding: 1em; 
+            text-align: left; 
+            justify-content: center;
+            }
+
+    .navbar ul li {
+        display: block;
+        text-align: center;
+
+    }
+
+    /* Dropdown menus */
+    .navbar ul li ul {
+        position: static;
+    }
+
+    #carrito {
+        width: 24px; /* Adjust size for smaller screens */
+    }
+
+    .policy-container {
+        padding: 1px; /* Adjust padding for content readability */
+        margin-top:260px;
+        
+    }
+
+    header img#BUSTIER {
+        max-width: 90px; /* Adjust as needed */
+    }
+
+}
