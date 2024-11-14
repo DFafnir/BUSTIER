@@ -77,7 +77,6 @@ const productos = [
             id:"Calzado"
         }
 
-
     },
     {
         id:8,
@@ -101,11 +100,14 @@ const productos = [
             id:"Calzado"
         }
 
-
     },
     {
         id:10,
         titulo:"MOCASINESMARRONES",
+    },
+    {
+        id:10,
+        nombre:MOCASINESDEPUNTAREDONDALADIESS,
         precio:350.000,
         imagen:'./assets/img_productos/clazado5.png',
         categoria:{
@@ -124,8 +126,6 @@ const productos = [
             nombre:"Prendas",
             id:"Prendas"
         }
-
-
     },
     {
         id:12,
