@@ -6,8 +6,10 @@
     <title>ARTICULOS</title>
     <link rel="stylesheet" href="./assets/css/style_tienda.css"> 
     <link rel="icon" type="image/x-icon" href="./assets/img/logoo.png">
+    
 </head>
 <body>
+    <script src="./assets/js/java_carrito.js"></script>
     <header>
         <img id="BUSTIER" src="./assets/img/LOGO.png">
         <div class="barra">
@@ -17,9 +19,9 @@
               <li>
                 <a href="./index_tienda.html">TIENDA</a>
                 <ul>
-                    <li><a href="#">PRENDAS</a></li>
-                    <li><a href="#">CALZADO</a></li>
-                    <li><a href="#">ACCESORIOS</a></li>
+                    <li id="Prendas"><a href="#">PRENDAS</a></li>
+                    <li id="Calzado"><a href="#">CALZADO</a></li>
+                    <li id="Accesorios"><a href="#">ACCESORIOS</a></li>
                 </ul>
             </li>
             <li><a href="./index_acerca_de.html">ACERCA DE</a></li>
@@ -36,13 +38,13 @@
  </div>
 <!ACCESORIOS_EN LA TIENDA>
 <aside>
-    <div class="container">
+    <div id="contenedor-productos" class="container">
         <div class="producto">
             <img src="./assets/img_productos/accesorio1.png" alt="">
             <h3>RELOJ ENCHAPADO EN ORO DE 18K VINTAGE</h3>
             <div class="pie_cont">
                 <h3>$180.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -51,7 +53,7 @@
             <h3>COLGANTE LADIES´S ENCHAPADO EN ORO 4K</h3>
             <div class="pie_cont">
                 <h3>$90.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -60,7 +62,7 @@
             <h3>COLLAR DE PERLAS REALES LADIES´S</h3>
             <div class="pie_cont">
                 <h3>$100.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -69,7 +71,7 @@
             <h3>ANILLO BLACK LADIES´S PIEDRA PRECIOSA UNITALLA</h3>
             <div class="pie_cont">
                 <h3>$200.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -78,7 +80,7 @@
             <h3>BRAZALETE DE PERLAS CUTE LADIES´S</h3>
             <div class="pie_cont">
                 <h3>$50.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 <!CALZADO_EN LA TIENDA>
@@ -87,7 +89,7 @@
             <h3>CHERRY RED BOOTS LADIES´S EN CUERO</h3>
             <div class="pie_cont">
                 <h3>$350.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -96,7 +98,7 @@
             <h3>MOCASINES DE DAMA EN NEGRO</h3>
             <div class="pie_cont">
                 <h3>$260.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -105,7 +107,7 @@
             <h3>TACONES CON PLATAFORMA DE DAMA SHOE LADIES´S</h3>
             <div class="pie_cont">
                 <h3>$200.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -114,7 +116,7 @@
             <h3>BOTINES LADIES´S EN CUERO MARRÓN</h3>
             <div class="pie_cont">
                 <h3>$450.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -123,7 +125,7 @@
             <h3>MOCASINES DE PUNTA REDONDA LADIES´S</h3>
             <div class="pie_cont">
                 <h3>$350.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 <!PRENDAS DE LA TIENDA>
@@ -132,7 +134,7 @@
             <h3>CAMISA OVERSIZE ELEMENTS VICTORIANA</h3>
             <div class="pie_cont">
                 <h3>$30.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -141,7 +143,7 @@
             <h3>CAMISA OVERSIZE GENTLEMAN VICTORIANA</h3>
             <div class="pie_cont">
                 <h3>$30.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -150,7 +152,7 @@
             <h3>CORSET VICTORIANO PARA DAMA EN BEIGE CLÁSICO</h3>
             <div class="pie_cont">
                 <h3>$69.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -159,7 +161,7 @@
             <h3>LADIES´S DRESS EN BEIGE Y FLORES</h3>
             <div class="pie_cont">
                 <h3>$90.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -168,7 +170,7 @@
             <h3>GABARDINA CLÁSICA EN BEIGE</h3>
             <div class="pie_cont">
                 <h3>$200.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -177,7 +179,7 @@
             <h3>SWEET BRONW PANTALONES CLÁSICOS RECTOS</h3>
             <div class="pie_cont">
                 <h3>$50.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -186,7 +188,7 @@
             <h3>LADIES´S PRETTY DRESS EN BEIGE</h3>
             <div class="pie_cont">
                 <h3>$90.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>
 
@@ -195,7 +197,7 @@
             <h3>TOTE PRETTY BAG LADIES´S EN BEIGE</h3>
             <div class="pie_cont">
                 <h3>$15.000</h3>
-                <a href="index_carrito.html"><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
+                <a><img id="carrito2" src="/assets/img/carrito logo.png" alt="carrito"></a>
             </div>
         </div>   
     </div>
