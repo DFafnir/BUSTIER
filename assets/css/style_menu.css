@@ -286,6 +286,16 @@ footer>div>a{
 }
 
 /* Banner Animation */
+.button-banner {
+    
+    animation: slideDown 1.5s ease-out;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* Banner Animation */
 #BANNER {
     
     animation: slideDown 1.5s ease-out;
