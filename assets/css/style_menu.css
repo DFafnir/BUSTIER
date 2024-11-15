@@ -275,7 +275,7 @@ footer>div>a{
 }
 
 /* Banner Animation */
-.button-banner{
+ .button-banner{
     
     animation: slideDown 1.5s ease-out;
 }
