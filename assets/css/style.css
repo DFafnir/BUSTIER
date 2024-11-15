@@ -146,7 +146,7 @@ footer h3{
   
   #cuenta-carrito{
     position: absolute;
-    background-color:none;
+    background-color: #f0ce9c;
     border-radius: 100%;
     display: inline-block;
     height: 25px;

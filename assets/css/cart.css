@@ -36,7 +36,7 @@
 :root{
   --color-acento: #da9761;
   --color-acento-claro: #ee60307a;
-  --color-texto: rgb(224, 27, 20);
+  --color-texto: rgb(241, 36, 64);
 }
 
 body{
@@ -97,7 +97,6 @@ a:hover:not(#cart), button:hover{
   color:#fdf9f9;
 }
 
-/* Header */
 header{
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.09);
   margin-bottom: 10px;
@@ -173,14 +172,13 @@ header{
 .navbar ul li:hover > ul {
    display: block;
 }
-
 header nav img{
   height: 25px;
 }
 
 #cuenta-carrito{
   position: absolute;
-  background-color:none;
+  background-color: #f0ce9c;
   border-radius: 100%;
   display: inline-block;
   height: 25px;
