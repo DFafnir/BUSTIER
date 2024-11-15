@@ -84,7 +84,7 @@ const button = document.getElementById('alertButton');
 // Añade un evento de clic al botón
 button.addEventListener('click', function() {
     // Muestra una alerta
-    alert('¡Gracias por tu compra!');
+    alert('¡Gracias por tu compra! :D');
 
     localStorage.removeItem("Carrito");
     contenedorTarjetas.innerHTML = "";
