@@ -185,9 +185,8 @@ main{
 }
 #productos-container{
   display: grid; 
-  grid-template-columns: repeat(4, 1fr); /* Cambiar a al menos cuatro columnas */ 
-  gap: 20px; 
-  margin-top: 20px
+  grid-template-columns: repeat(4, 1fr); /* Cambiar a al menos cuatro columnas */  
+  margin-top: 10px
 }
 .tarjeta-producto { 
   background-color: #c98fb18c;
