@@ -174,7 +174,58 @@ footer>div>a{
     font-size: small;
     text-align: center;
 }
+.search-container {
+  
+  
+  justify-content: center; /* Centra el contenido dentro del contenedor */
+  gap: 10px;  /* Espaciado entre el input y el botón */
+ 
+ 
+}
 
+/* Estilo para el campo de búsqueda */
+#search-input {
+ 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;  /* Incluye el padding en el cálculo del ancho */
+  transition: border-color 0.3s;  /* Transición suave para el borde */
+}
+
+#search-input:focus {
+  border-color: #6d1818;  /* Cambia el borde al enfocarse */
+  outline: none;  /* Elimina el borde por defecto al hacer foco */
+}
+
+/* Estilo para el botón de búsqueda */
+#search-button {
+  padding: 10px 20px;
+  background-color: #5c2454;  /* Fondo azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;  /* Transición para cambio de color */
+}
+
+#search-button:hover {
+  background-color: #0056b3;  /* Cambia a un azul más oscuro al pasar el mouse */
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  .search-container {
+      flex-direction: column;  /* Cambia a columna en pantallas pequeñas */
+      gap: 15px;
+  }
+
+  #search-input {
+      width: 100%;  /* El campo de búsqueda ocupa todo el ancho disponible */
+  }
+}
 
 main{
     margin-top: 12%;
