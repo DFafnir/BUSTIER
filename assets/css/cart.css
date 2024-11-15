@@ -226,3 +226,35 @@ margin-top: 0%;
 margin-top: ;
 
 }
+.cantidad{
+  color: #f70000;
+}
+
+.tarjeta-producto{
+  background-color: #d8a3d55e;
+  border-radius: 20px;
+  margin: 10px;
+}
+.tarjeta-producto img { 
+  border-radius: 15px; 
+  display: block; 
+  width: 20%; 
+  max-width: 250px; 
+  height: auto; 
+}
+
+
+.tarjeta-producto h3, 
+.tarjeta-producto span, 
+.tarjeta-producto div { 
+  color: #977253;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
