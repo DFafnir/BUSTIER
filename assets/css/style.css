@@ -191,16 +191,16 @@ main{
  
   .tarjeta-producto {
     background-color: #c98fb150; 
-    margin: 100px; 
     margin-bottom: 160px;
     border-radius: 15px;
-    width: calc(25%-40px);
+    width: calc(35%-40px);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    width: 110px;
+    width: 200px;
+    margin-left: 20%;
+    margin-bottom: 10px;
   }
   .tarjeta-producto img { 
     border-radius: 15px; 
@@ -217,7 +217,7 @@ main{
       font-family: Arial, Helvetica, sans-serif;
       font-style: normal;
       font-size: 1rem;
-      text-align: justify;
+      text-align: center;
     }
 p{
   font-family: Arial, Helvetica, sans-serif;
