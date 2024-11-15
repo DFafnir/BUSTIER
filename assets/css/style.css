@@ -203,7 +203,9 @@ main{
     margin-bottom: 10px;
     transition: transform 0.3s ease;
   }
-  .tarjeta-producto:hover { transform: scale(1.05); }
+  .tarjeta-producto:hover { transform: scale(1.05); 
+  box-shadow: 5px 5px 5px #2a00307e;
+  }
   
   .tarjeta-producto img { 
     border-radius: 15px; 
