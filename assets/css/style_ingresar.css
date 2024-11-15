@@ -519,4 +519,52 @@ a:hover {
     } 
     } 
 
+    @media (max-width: 768px) {
+        .navbar ul {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .navbar ul li a {
+            padding: 1em;
+            text-align: center;
+        }
+    
+        .navbar ul li {
+            width: 100%;
+        }
+    
+        #BUSTIER {
+            width: 10em;  /* Ajuste del tamaño en pantallas pequeñas */
+        }
+    
+        #profile, #carrito {
+            width: 1.5em; /* Reducción de iconos */
+            height: 1.5em;
+        }
+    
+        .container {
+            width: 90%;
+            padding: 10px;
+        }
+    
+        footer {
+            font-size: small;
+        }
+    
+        .container .form-container {
+            padding: 10px;
+        }
+    }
+    
+    /* Mostrar barra de navegación en pantallas pequeñas */
+    #nav-toggle {
+        display: block;
+    }
+    
+    .navbar ul.nav-open {
+        display: flex;
+    }
+    
     
