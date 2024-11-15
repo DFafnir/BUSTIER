@@ -2,7 +2,7 @@
 :root{
     --color-acento: #da9761;
     --color-acento-claro: #ee60307a;
-    --color-texto: rgb(100, 69, 28);
+    --color-texto: rgb(224, 27, 20);
   }
   
   body{
@@ -160,7 +160,7 @@ footer h3{
     padding-top: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: flex;
     bottom: 0;
     width: 100%;
     background-color: #d6cbcfb4;
@@ -183,26 +183,43 @@ main{
 .mainCarrito{
     min-height: 88vh;
 }
-
-.tarjeta-producto{
-    background-color: #c98fb150;
-    margin: 15px;
-    border-radius: 15px;
-    width: 30rem;
+#productos-container{
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); /* Cambiar a al menos cuatro columnas */ 
+  gap: 20px; 
+  margin-top: 20px
 }
-
-.tarjeta-producto img{
-    border-radius: 15px 0px 0px 15px;
-    justify-content: center;
+.tarjeta-producto { 
+  background-color: #c98fb18c;
+   margin: 100px; 
+   border-radius: 15px; 
+   width: calc(25% - 40px);
+   box-sizing: border-box; 
+   display: flex; 
+   flex-direction: column; /* Alinea los elementos verticalmente */ 
+   align-items: center; /* Centra los elementos horizontalmente */ 
+   padding: 10px; } 
+   
+   .tarjeta-producto img { 
+    border-radius: 15px; 
+    display: block; 
+    width: 100px;
+    } 
     
-}
-h3{
-  color: #977253;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-size: 1rem;
-  text-align: justify;
-}
+    .tarjeta-producto h3, 
+    .tarjeta-producto span, 
+    .tarjeta-producto div { 
+      color: #977253;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-size: 1rem;
+      text-align: justify;
+    }
 p{
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0%;
+}
+#cart{
+  margin-top: ;
+
 }
