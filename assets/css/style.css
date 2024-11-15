@@ -160,7 +160,7 @@ footer h3{
     padding-top: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    position: flex;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #d6cbcfb4;

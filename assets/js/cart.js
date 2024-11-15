@@ -78,3 +78,16 @@ function revisarMensajeVacio() {
   carritoVacioElement.classList.toggle("escondido", productos);
   totalesContainer.classList.toggle("escondido", !productos);
 }
+
+const button = document.getElementById('alertButton');
+
+// Añade un evento de clic al botón
+button.addEventListener('click', function() {
+    // Muestra una alerta
+    alert('¡Gracias por tu compra!');
+
+    localStorage.removeItem("Carrito");
+    contenedorTarjetas.innerHTML = "";
+    actualizarTotales();
+    revisarMensajeVacio();
+});
