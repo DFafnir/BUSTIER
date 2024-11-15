@@ -229,3 +229,22 @@ p{
   
 }
 
+.policy-container::before,
+.policy-container::after {
+    content: "";
+    position: absolute;
+    width: 180%;
+    height: 50px;
+    background-color: #d4b59c;
+    top: 0;
+    left: -40%;
+    transform: rotate(-3deg);
+    opacity: 0.08;
+}
+
+.policy-container::after {
+    top: auto;
+    bottom: 0;
+    transform: rotate(3deg);
+
+}
