@@ -13,6 +13,30 @@ body {
 
 }
 
+.button-banner {
+    background-color: #c55967; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    border-radius: 30px; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    display: inline-block; 
+    cursor: pointer; 
+    position: relative; 
+    top: -100px;
+    left: 320px; 
+}
+
+.button-banner:hover {
+    background-color: #a73c5a; /* Cambio de color al pasar el cursor */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+    transform: scale(1.05); /* Efecto de ampliación */
+}
 
 #BUSTIER{
     width: 15em;
@@ -244,6 +268,16 @@ footer>div>a{
     font-size: small;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* Banner Animation */
+.button-banner{
+    
+    animation: slideDown 1.5s ease-out;
+}
 
 
 @keyframes fadeIn {
